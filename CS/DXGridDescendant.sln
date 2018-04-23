@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXGridDescendant", "DXGridDescendant\DXGridDescendant.csproj", "{B29FDA84-4187-4890-A897-E9388F395741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomGridControl", "MyGridControl\CustomGridControl.csproj", "{A87AE516-47BC-4543-8736-6D83D34549F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B29FDA84-4187-4890-A897-E9388F395741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29FDA84-4187-4890-A897-E9388F395741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29FDA84-4187-4890-A897-E9388F395741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29FDA84-4187-4890-A897-E9388F395741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87AE516-47BC-4543-8736-6D83D34549F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87AE516-47BC-4543-8736-6D83D34549F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87AE516-47BC-4543-8736-6D83D34549F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87AE516-47BC-4543-8736-6D83D34549F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
