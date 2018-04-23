@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="DXGridDescendant.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:myd="clr-namespace:CustomGridControl;assembly=CustomGridControl">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <myd:CustomGridControl x:Name="gridControl1">
+            <myd:CustomGridControl.Columns>
+                <dxg:GridColumn FieldName="Name" />
+                <dxg:GridColumn FieldName="Salary" />
+            </myd:CustomGridControl.Columns>
+            <myd:CustomGridControl.View>
+                <dxg:TableView AutoWidth="True" />
+            </myd:CustomGridControl.View>
+        </myd:CustomGridControl>
+    </Grid>
+</UserControl>
